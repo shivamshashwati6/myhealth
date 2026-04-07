@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareWell Clinic - Your Health First</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Local StyleSheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-plus-square"></i>
+            CareWell <span>Clinic</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <a href="#appointment" class="btn-appointment">Book Appointment</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="badge">Welcome to CareWell</span>
+            <h1>Trusted Healthcare for You and Your Family</h1>
+            <p>Comprehensive medical services with professional doctors in a caring, modern environment. Your health is our top priority.</p>
+            <div class="hero-btns">
+                <a href="#appointment" class="btn btn-primary">Schedule a Visit <i class="fas fa-arrow-right"></i></a>
+                <a href="#services" class="btn btn-secondary">Our Services</a>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>Emergency Care</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Expert Doctors</p>
+                </div>
+                <div class="stat-item">
+                    <h3>10k+</h3>
+                    <p>Happy Patients</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="https://images.unsplash.com/photo-1638202993928-7267aad84c31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Medical Team">
+                <div class="floating-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <div>
+                        <h4>Top Quality</h4>
+                        <p>Medical Services</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <span class="subtitle">Our Specialties</span>
+            <h2>Premium Medical Services</h2>
+            <p>We offer a wide range of high-quality medical services to address all your healthcare needs with advanced medical technology.</p>
+        </div>
+        <div class="services-cards">
+            <div class="card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <h3>Cardiology</h3>
+                <p>Expert care for heart health and cardiovascular disease, using the latest testing and diagnosis technology.</p>
+                <a href="#" class="learn-more">Learn more <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <h3>General Checkup</h3>
+                <p>Comprehensive health screenings routines to ensure your long-term wellness and monitor vitality effectively.</p>
+                <a href="#" class="learn-more">Learn more <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-bone"></i>
+                </div>
+                <h3>Orthopedics</h3>
+                <p>Specialized treatments for bone, joint health issues, arthritis relief, and professional sports injuries therapy.</p>
+                <a href="#" class="learn-more">Learn more <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Neurology</h3>
+                <p>Advanced diagnosis and specialized treatment plans designed for complex disorders of the nervous system.</p>
+                <a href="#" class="learn-more">Learn more <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-tooth"></i>
+                </div>
+                <h3>Dental Care</h3>
+                <p>Complete dental services ranging from everyday oral hygiene to advanced and restorative cosmetic dentistry.</p>
+                <a href="#" class="learn-more">Learn more <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h3>Eye Care</h3>
+                <p>State-of-the-art vision correction, detailed eye exams, and precision-driven surgical eye care procedures.</p>
+                <a href="#" class="learn-more">Learn more <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment-section" style="padding: 5rem 10%; background: #f8f9fa;">
+        <div class="section-header" style="text-align: center; margin-bottom: 3rem;">
+            <span class="subtitle" style="color: #2563eb; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Book Now</span>
+            <h2 style="font-size: 2.5rem; color: #1e293b; margin-top: 0.5rem;">Make an Appointment</h2>
+            <p style="color: #64748b; max-width: 600px; margin: 1rem auto 0;">Schedule your visit online and we will contact you to confirm.</p>
+        </div>
+        <div class="form-container" style="max-width: 600px; margin: 0 auto; background: white; padding: 2.5rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05);">
+            <form id="appointmentForm">
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; color: #475569; font-weight: 500;">Full Name</label>
+                    <input type="text" id="name" required style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; font-family: inherit;">
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; color: #475569; font-weight: 500;">Email Address</label>
+                    <input type="email" id="email" required style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; font-family: inherit;">
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; color: #475569; font-weight: 500;">Phone Number</label>
+                    <input type="tel" id="phone" style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; font-family: inherit;">
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; color: #475569; font-weight: 500;">Preferred Date</label>
+                    <input type="date" id="date" required style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; font-family: inherit;">
+                </div>
+                <div style="margin-bottom: 2rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; color: #475569; font-weight: 500;">Department</label>
+                    <select id="department" required style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; font-family: inherit; background: white;">
+                        <option value="">Select Department</option>
+                        <option value="Cardiology">Cardiology</option>
+                        <option value="General">General Checkup</option>
+                        <option value="Orthopedics">Orthopedics</option>
+                        <option value="Neurology">Neurology</option>
+                        <option value="Dental">Dental Care</option>
+                        <option value="Eye">Eye Care</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-submit">Confirm Appointment</button>
+            </form>
+            <div id="formMessage" style="margin-top: 1.5rem; text-align: center; font-weight: 500;"></div>
+        </div>
+    </section>
+
+    <!-- Script to handle form submission -->
+    <script>
+        document.getElementById('appointmentForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const btn = e.target.querySelector('button');
+            const msg = document.getElementById('formMessage');
+            const originalText = btn.innerText;
+            
+            btn.disabled = true;
+            btn.innerText = 'Submitting...';
+            btn.style.opacity = '0.7';
+            msg.innerText = '';
+            
+            const payload = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                date: document.getElementById('date').value,
+                department: document.getElementById('department').value
+            };
+            
+            try {
+                // Determine base URL dynamically (works locally and deployed if API path is relative)
+                const baseUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
+                                ? 'http://localhost:3000' 
+                                : '';
+                const response = await fetch(`${baseUrl}/api/appointments`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok && result.success) {
+                    msg.style.color = '#16a34a';
+                    msg.innerText = result.message || 'Appointment booked successfully!';
+                    e.target.reset();
+                } else {
+                    msg.style.color = '#dc2626';
+                    msg.innerText = result.message || 'Error submitting appointment.';
+                }
+            } catch (err) {
+                msg.style.color = '#dc2626';
+                msg.innerText = 'Failed to connect to the server. Is it running?';
+                console.error('Submission error:', err);
+            } finally {
+                btn.disabled = false;
+                btn.innerText = originalText;
+                btn.style.opacity = '1';
+            }
+        });
+    </script>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <i class="fas fa-plus-square"></i>
+                    CareWell <span>Clinic</span>
+                </div>
+                <p>Providing world-class healthcare services. Your health, healing, and well-being are our top priorities.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Health Avenue, Medical City</p>
+                <p><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> info@carewellclinic.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 CareWell Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
